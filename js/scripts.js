@@ -1,10 +1,10 @@
+const {createApp} = Vue;
 
-
-new Vue({
-    el: "#hello-world-app",
+createApp({
+    
     data() {
       return {
         msg: "Hello World!"
       }
     }
-  });
+  }).mount('#app');
